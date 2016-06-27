@@ -5,7 +5,7 @@ class CreatePubcrawl < ActiveRecord::Migration
       t.string :description
       t.integer :number_of_pubs
       t.integer :price
-      t.string :neighbourhood
+      t.string :neighbourhood_id
       t.string :poster
       t.integer :pub_id
       t.integer :user_id
