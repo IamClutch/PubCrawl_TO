@@ -24,12 +24,10 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string :neighbourhood
       t.string :email
       t.string :profile
+      t.string :profilepicture
       t.string :firstname
       t.string :lastname
-      t.string :address
-      t.string :city
-      t.string :province
-      t.string :postalcode
+      t.interger :DOB
 
       ## Confirmable
       # t.string   :confirmation_token
