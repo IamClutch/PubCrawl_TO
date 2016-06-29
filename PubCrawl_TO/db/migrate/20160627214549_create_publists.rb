@@ -9,6 +9,7 @@ class CreatePubcrawl < ActiveRecord::Migration
       t.string :poster
       t.integer :pub_id
       t.integer :user_id
+      t.string :picture
       t.timestamps null: false
     end
   end

@@ -27,7 +27,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string :profilepicture
       t.string :firstname
       t.string :lastname
-      t.interger :DOB
+      t.date :DOB
 
       ## Confirmable
       # t.string   :confirmation_token
