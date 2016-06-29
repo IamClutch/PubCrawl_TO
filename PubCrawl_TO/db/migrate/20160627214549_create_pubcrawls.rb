@@ -1,4 +1,4 @@
-class CreatePubcrawl < ActiveRecord::Migration
+class CreatePubcrawls < ActiveRecord::Migration
   def change
     create_table :pubcrawl do |t|
       t.string :name

@@ -1,2 +1,2 @@
-class Publist < ActiveRecord::Base
+class Pubcrawl < ActiveRecord::Base
 end
