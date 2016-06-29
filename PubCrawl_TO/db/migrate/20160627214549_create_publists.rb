@@ -1,6 +1,6 @@
 class CreatePubcrawl < ActiveRecord::Migration
   def change
-    create_table :publists do |t|
+    create_table :pubcrawl do |t|
       t.string :name
       t.string :description
       t.integer :number_of_pubs
