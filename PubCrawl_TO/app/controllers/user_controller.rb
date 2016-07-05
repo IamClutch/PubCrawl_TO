@@ -6,7 +6,7 @@ def new
 end
 
 def create
-  @user = User.new(restaurant_params)
+  @user = User.new(user_params)
 end
 
 

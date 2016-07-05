@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Pub.create(
+name: 'brunny',
+pubcrawl_id: 1,
+neighbourhood: 'Annex',
+picture: 'ye'
+
+)

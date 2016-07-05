@@ -6,10 +6,14 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<header>
+<%= link_to "Sign up", new_user_registration_path %>
+</header>
 <body>
 
 <%= yield %>
 <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
+
 </body>
 </html>
